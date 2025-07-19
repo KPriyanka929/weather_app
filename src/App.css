@@ -1,0 +1,111 @@
+body {
+  background-image: linear-gradient(to right, #ffffff, #292929);
+  margin-left: 100px;
+}
+
+.searchbar {
+  background-color: #d9d9d9;
+  padding-left: 70px;
+  height: 45px;
+  width: 600px;
+  border-radius: 35px;
+  margin: 30px 0px 0px 250px;
+  font-size: 20px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 5px gray;
+}
+
+.searchbar::placeholder {
+  color: rgb(69, 68, 68);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.time {
+  margin: 60px 0px 0px 120px;
+  height: 250px;
+  width: 400px;
+
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  box-shadow: 10px 10px 5px;
+}
+
+.daily {
+  height: 250px;
+  width: 350px;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  box-shadow: 10px 10px 5px;
+  margin: 42px 0px 0px 150px;
+}
+.weather {
+  height: 250px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  box-shadow: 10px 10px 5px;
+  margin: -570px 0px 0px 600px;
+}
+.hourly {
+  height: 250px;
+  width: 800px;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  box-shadow: 10px 10px 5px;
+  margin: 50px 0px 0px 540px;
+}
+
+.timing {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 0px 0px 100px;
+  font-weight: 600;
+  color: #292929;
+}
+.day {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px;
+}
+.temp h6 {
+  text-align: center;
+  margin: 12px 0px 0px 80px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.temp span {
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hour div {
+  height: 160px;
+  width: 80px;
+  border-radius: 29px;
+  background-image: linear-gradient(to bottom, #f88508, #f6fad9);
+  text-align: center;
+}
+.hour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hour div p {
+  font-weight: 20px;
+}
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(to right, #464545, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  padding-left: "20px";
+  /*color: transparent;*/
+}
+
+.h1 {
+  padding: 10px 0px 0px 25px;
+}
