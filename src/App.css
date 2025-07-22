@@ -56,9 +56,9 @@ body {
 }
 
 .timing {
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 10px 0px 0px 100px;
+  margin: 10px 0px 0px 70px;
   font-weight: 600;
   color: #292929;
 }
@@ -67,32 +67,46 @@ body {
   font-size: 20px;
   padding-top: 15px;
 }
-.temp h6 {
+/* .temp {
   text-align: center;
   margin: 12px 0px 0px 80px;
   font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .temp span {
   padding-left: 30px;
   font-size: 14px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+} */
+.temp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1px;
+}
+.temp h5 {
+  margin: 2px 0px 4px 0px;
+  gap: 2px;
 }
 
-.hour div {
+.hour {
   height: 160px;
   width: 80px;
   border-radius: 29px;
   background-image: linear-gradient(to bottom, #f88508, #f6fad9);
   text-align: center;
+  font-weight: 20px;
 }
-.hour {
+.hours {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-.hour div p {
-  font-weight: 20px;
 }
 .header {
   font-size: 50px;
@@ -108,4 +122,12 @@ body {
 
 .h1 {
   padding: 10px 0px 0px 25px;
+}
+.details {
+  height: 200px;
+  width: 170px;
+  margin: -200px 0px 0px 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
