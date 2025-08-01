@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(to right, #ffffff, #292929);
-  margin-left: 100px;
 }
 
 .searchbar {
@@ -130,4 +129,20 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  margin: -220px 0px 0px 180px;
+}
+.image img {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  /* justify-content: center; */
+}
+.image h1 {
+  margin-top: -60px;
+  margin-left: 60px;
 }
